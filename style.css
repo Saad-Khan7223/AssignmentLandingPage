@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.logo p{
+    font-size: 2rem;
+    font-weight: 900;
+    margin:0.625rem;
+}
+nav ul li{
+    list-style-type:none;
+    font-weight: 800;
+    padding: 0.625rem;
+}
+nav ul{
+    display: flex;
+    margin:0.625rem;
+   
+}
+
+.detail{
+    max-width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+   }
+.detailHeading {
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 0.625rem;
+
+}
+.detailDiv{
+    max-width:30%;
+    padding: 0.625rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+}
+
+.belowDetailContent{
+max-width: 50%;
+position: relative;
+top: -30rem;
+padding: 0.625rem;
+}
+.belowDetailContent .detailHeading{
+    text-align: center;
+}
+.belowDetailPara{
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 25px;
+}
+
+.end{
+    display: flex;
+    align-items:center;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+.endDetail {
+   line-height: 1.2rem;
+   padding:2rem
+    
+}
+.endDetail p{
+    text-align: center;
+    line-height: 1.5rem;
+     
+ }
+ .afterNavDetailContent{
+     max-width: 50%;
+     position: relative;
+     top:-20rem;
+     left:2rem;
+     text-align: center;
+ }
+ .afterNavDetailPara{
+     font-size: 1.2rem;
+     font-weight: 800;
+ }
